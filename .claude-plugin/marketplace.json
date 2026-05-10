@@ -1,0 +1,13 @@
+{
+  "name": "journal-skills",
+  "owner": {
+    "name": "Stuart Clark"
+  },
+  "plugins": [
+    {
+      "name": "journal-skills",
+      "source": "./",
+      "description": "Daily standup, daily wrap, and weekly/monthly/quarterly summary commands. Pulls from GitHub and Jira, saves to an Obsidian vault, and optionally commits to git."
+    }
+  ]
+}

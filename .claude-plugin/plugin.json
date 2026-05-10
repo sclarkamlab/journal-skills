@@ -1,0 +1,10 @@
+{
+  "name": "journal-skills",
+  "version": "0.1.0",
+  "description": "Daily standup, daily wrap, weekly/monthly/quarterly summary skills that pull from GitHub and Jira and save to an Obsidian vault (optionally backed by git).",
+  "author": {
+    "name": "Stuart Clark"
+  },
+  "homepage": "https://github.com/sclarkamlab/journal-skills",
+  "license": "MIT"
+}
