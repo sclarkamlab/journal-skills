@@ -90,7 +90,7 @@ acli jira workitem search --jql 'assignee = currentUser() AND status in ("In Pro
 First, check Jira automatically:
 
 ```bash
-acli jira workitem search --jql 'assignee = currentUser() AND (status = "Blocked" OR priority = "Blocker") ORDER BY updated DESC' --fields "key,summary,status,priority" --limit 10
+acli jira workitem search --jql 'assignee = currentUser() AND status = "Blocked" ORDER BY updated DESC' --fields "key,summary,status,priority" --limit 10
 ```
 
 Then ask the user via `AskUserQuestion` whether they have any additional blockers not tracked in Jira (e.g. waiting on a person, environment issues, external dependencies):
